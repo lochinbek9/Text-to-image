@@ -6,7 +6,7 @@ const connectDB = async () =>{
         console.log("Data basa Connected")
     })
 
-    await mongoose.connect(`${process.env.MONGODB_URI}`)
+    await mongoose.connect(`${process.env.MONGODB_URI}/imagify`)
 }
 
-export default connectDB;
+export default connectDB; 
